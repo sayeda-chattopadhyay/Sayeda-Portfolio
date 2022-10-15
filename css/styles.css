@@ -86,7 +86,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 80%;
+  margin: 30px auto;
+  border: 2px solid red;
   /* border: 2px solid blue; */
   /* background-color: brown; */
 }
