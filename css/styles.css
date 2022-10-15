@@ -75,6 +75,7 @@ a {
   text-decoration: none;
 }
 
+.header-text,
 .header-container,
 .project-container,
 .contact-container {
@@ -88,12 +89,15 @@ nav {
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   max-width: 90%;
-  margin: 30px auto;
+  margin: 0 auto;
   /* border: 2px solid red; */
+  background-color: #fff;
 }
 
 .logo-container {
