@@ -88,18 +88,15 @@ nav {
   justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
-  max-width: 80%;
+  max-width: 90%;
   margin: 30px auto;
-  border: 2px solid red;
-  /* border: 2px solid blue; */
-  /* background-color: brown; */
+  /* border: 2px solid red; */
 }
 
 .logo-container {
-  /* background-color: #6e07f3; */
   background-color: var(--primary-color);
   border: none;
   color: white;
@@ -594,4 +591,48 @@ footer {
 
 .sub-title {
   margin-bottom: 30px;
+}
+
+/* trying tooltip on github and live icon on project section */
+
+.tooltip {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 40px; */
+  cursor: pointer;
+}
+
+/* Style text tooltip */
+.tooltipText {
+  background-color: #fff;
+  color: #080808;
+  position: absolute;
+  /* bottom: 100%; */
+  top: 30%;
+  left: 120%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.tooltipText::after {
+  content: "";
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  /* top: 100%; */
+  left: 40%;
+  margin-left: 5%;
+}
+
+/* Hover text tooltip */
+.tooltip:hover .tooltipText {
+  opacity: 1;
+  /* transform: translateX(-10px); */
+  transform: translateY(-10px);
 }
