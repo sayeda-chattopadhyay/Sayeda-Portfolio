@@ -31,7 +31,7 @@
   </head>
   <body>
     <!-------header----- -->
-    <header id="header">
+    <!-- <header id="header">
       <div class="header-container">
         <nav>
           <div class="logo-container">
@@ -56,8 +56,34 @@
           <p>A lifelong learner in love with everything fancy</p>
         </div>
       </div>
+    </header> -->
+    <header>
+      <div class="logo-container">
+        <a href="#main-Conatiner" class="logo">S</a>
+      </div>
+      <div class="menu">
+        <i class="fa-solid fa-bars menu-link"></i>
+      </div>
+      <nav class="stroke" id="main-nav">
+        <div class="close">
+          <i class="fa-solid fa-xmark close"></i>
+        </div>
+        <ul>
+          <li><a href="#main-Conatiner">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
+    <main id="main-Conatiner">
+      <div class="header-text" id="header-text">
+        <h3>Hi, I am <span>Sayeda</span></h3>
+        <h1>UX designer & Frontend Developer</h1>
+        <p>A lifelong learner in love with everything fancy</p>
+        <div><a href="#projects" class="cta">See my works</a></div>
+      </div>
+
       <!---------- about  ------->
       <div id="about">
         <div class="about-content">
@@ -127,8 +153,8 @@
               <img src="images/blog-website.png" alt="image of blog website" />
               <div class="layer">
                 <h2>My Baking Desire</h2>
-                <p>This is a blog website</p>
-                <!-- trying tooltip -->
+                <p>This was my exam project for first year.</p>
+                <p>Welcome to the baking and dessert blog.</p>
                 <div class="tooltip github">
                   <span class="tooltipText">github</span>
                   <a
@@ -136,13 +162,12 @@
                     ><i class="fa-brands fa-github"></i
                   ></a>
                 </div>
-                <!-- <a
-                  href="https://github.com/Noroff-FEU-Assignments/project-exam-1-sayeda-chattopadhyay.git"
-                  ><i class="fa-brands fa-github"></i
-                ></a> -->
-                <a href="https://poetic-dusk-59ba87.netlify.app"
-                  ><i class="fa-solid fa-globe"></i
-                ></a>
+                <div class="tooltip live">
+                  <span class="tooltipText">website</span>
+                  <a href="https://poetic-dusk-59ba87.netlify.app"
+                    ><i class="fa-solid fa-globe"></i
+                  ></a>
+                </div>
               </div>
             </div>
             <div class="project">
@@ -152,14 +177,24 @@
               />
               <div class="layer">
                 <h2>Community Science Museum</h2>
-                <p>This is the website of community science museum</p>
-                <a
-                  href="https://github.com/sayeda-chattopadhyay/The-Community-Science-Museum.git"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a href="https://dreamy-curran-2df551.netlify.app"
-                  ><i class="fa-solid fa-globe"></i
-                ></a>
+                <p>This was my first semester project.</p>
+                <p>
+                  The websites focus is to be informative and appealing to the
+                  youngsters.
+                </p>
+                <div class="tooltip github">
+                  <span class="tooltipText">github</span>
+                  <a
+                    href="https://github.com/sayeda-chattopadhyay/The-Community-Science-Museum.git"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+                <div class="tooltip live">
+                  <span class="tooltipText">website</span>
+                  <a href="https://dreamy-curran-2df551.netlify.app"
+                    ><i class="fa-solid fa-globe"></i
+                  ></a>
+                </div>
               </div>
             </div>
             <div class="project">
@@ -169,14 +204,24 @@
               />
               <div class="layer">
                 <h2>Rainy Days</h2>
-                <p>This is a jacket selling website</p>
-                <a
-                  href="https://github.com/sayeda-chattopadhyay/rainydays-main.git"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a href="sparkling-pavlova-fd0470"
-                  ><i class="fa-solid fa-globe"></i
-                ></a>
+                <p>This was my cross course project</p>
+                <p>
+                  The website is simple and intuitive for the costomers to buy
+                  jackets for all season types.
+                </p>
+                <div class="tooltip github">
+                  <span class="tooltipText">github</span>
+                  <a
+                    href="https://github.com/sayeda-chattopadhyay/rainydays-main.git"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+                <div class="tooltip live">
+                  <span class="tooltipText">website</span>
+                  <a href="sparkling-pavlova-fd0470"
+                    ><i class="fa-solid fa-globe"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
@@ -248,7 +293,6 @@
         All rights reserved 2022 &copy; Sayeda Portfolio
       </a>
     </footer>
-    <script src="js/displayError.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/index.js"></script>
