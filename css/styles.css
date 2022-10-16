@@ -33,7 +33,6 @@ h1 {
 }
 
 h2 {
-  /* font-size: 1.8rem; */
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: var(--primary-color);
@@ -47,11 +46,6 @@ p {
   font-size: 1.125rem;
   line-height: 1.5;
 }
-
-/* header {
-  width: 100%;
-  height: 100vh;
-} */
 
 header {
   display: flex;
@@ -78,27 +72,7 @@ a {
 
 .header-text {
   padding: 10px 10%;
-  /* border: 2px solid green; */
 }
-
-/* .contact-container  */
-
-/* nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  max-width: 90%;
-  margin: 0 auto;
-  border: 2px solid red;
-  background-color: #febe00;
-} */
 
 nav {
   transform: translateX(0);
@@ -152,8 +126,6 @@ nav ul li a {
 }
 
 nav ul li a {
-  /* color: #fff; */
-  /* text-decoration: none; */
   font-size: 18px;
   position: relative;
   color: #6e07f3;
@@ -179,7 +151,6 @@ nav ul li a:hover::after {
 .header-text {
   font-size: 1.125rem;
   padding: 20rem 10%;
-  border: 2px solid red;
   width: 100%;
   max-width: 90%;
   margin: 0 auto;
@@ -194,6 +165,7 @@ nav ul li a:hover::after {
   font-size: 1.75rem;
   margin-bottom: 20px;
 }
+
 .header-text h3 span {
   color: #6e07f3;
   font-size: 2.5rem;
@@ -216,28 +188,18 @@ nav ul li a:hover::after {
   background-color: #fff;
   color: var(--primary-color);
 }
-/* hide hamburger menu, close  and menu icon */
-
-/* .menu,
-.close {
-  display: none;
-} */
 
 .btn {
   display: block;
-  /* margin: 50px auto; */
   width: fit-content;
-  /* border: 1px solid #f7ecec; */
   border: 1px solid #febe00;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
-  /* color: #fff; */
   transition: background-color 0.5s;
 }
 
 /* ---------about Me--------------- */
-
 #about {
   width: 100%;
   padding: 100px 0px 80px;
@@ -254,8 +216,6 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
   text-align: center;
   margin: 0 auto;
-  /* border: 2px solid blue; */
-  /* padding-bottom: 18rem; */
   padding: 5rem 3rem 18rem;
 }
 
@@ -277,26 +237,19 @@ nav ul li a:hover::after {
 .row,
 .about-row {
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-between;
   gap: 20px;
   text-align: center;
-  /* background-color: #61b752; */
 }
 
 .about-row > * {
   flex: 1;
 }
 
-/* .skill-heading {
-  margin: 20px;
-} */
-
 .skill-text {
   width: 100%;
   margin: 1.5rem auto;
   max-width: 60%;
-  /* border: 2px solid green; */
   min-height: 100px;
 }
 
@@ -316,7 +269,6 @@ nav ul li a:hover::after {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  /* margin: 10px 20px; */
   border-radius: 15px;
 }
 
@@ -333,12 +285,8 @@ nav ul li a:hover::after {
 /* --------- Recent projects---------- */
 
 #projects {
-  /* padding: 5rem 0 0px; */
   padding: 50px 0;
   border: 2px solid green;
-  /* background-color: #6e07f3; */
-  /* background-color: #111921;
-  background-color: #fff; */
 }
 
 .work-heading {
@@ -414,9 +362,9 @@ nav ul li a:hover::after {
 }
 
 .layer h2 {
-  /* font-size: 1.2rem; */
+  font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   color: #febe00;
 }
 
@@ -453,8 +401,6 @@ nav ul li a:hover::after {
 }
 
 .contact-container {
-  /* border: 2px solid red; */
-  /* margin-top: 7rem; */
   background-color: #262626;
   color: #fff;
   padding: 5rem auto 0;
@@ -470,19 +416,14 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
-  /* background-color: green;
-  border: 2px solid blue; */
 }
 
 .contact-left {
   flex: 2;
-  /* flex-basis: 35%; */
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  /* border: 2px solid red; */
   padding: 30px;
 }
 
@@ -491,23 +432,14 @@ nav ul li a:hover::after {
 }
 
 .contact-right {
-  /* flex-basis: 60%; */
-  /* max-width: 1000px; */
-  /* margin: 0 auto; */
-  /* background-color: aliceblue; */
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  /* border: 2px solid red; */
-  /* max-width: 1000px; */
-  /* margin: 0 auto; */
 }
 
 .contact-form {
-  /* background-color: #61b752; */
   padding: 30px 40px;
   border-radius: 20px;
 }
@@ -531,14 +463,12 @@ nav ul li a:hover::after {
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  /* color: #ababab; */
   color: #febe00;
   display: inline-block;
   transition: transform 0.5s;
 }
 
 .social-icons a:hover {
-  /* color: #6e07f3; */
   color: #f7ecec;
   transform: translateY(-5px);
 }
@@ -568,7 +498,6 @@ form textarea {
   background: #f7ecec;
   padding: 10px;
   margin: 15px 0;
-  /* color: #fff; */
   font-size: 18px;
   border-radius: 6px;
 }
@@ -579,7 +508,6 @@ form .btn-submit {
   margin-top: 20px;
   cursor: pointer;
   background-color: #febe00;
-  /* color: #262626; */
   color: var(--secondary-color);
   border: none;
 }
@@ -606,7 +534,6 @@ label {
 }
 
 #msg {
-  /* color: #61b752; */
   margin-top: 20px;
   display: block;
 }
@@ -628,10 +555,6 @@ footer {
   padding: 25px 0;
   background: #6e07f3;
   font-weight: 300;
-  /* margin-top: 20px; */
-  /* display: flex;
-  justify-content: center;
-  font-size: 1.5em; */
 }
 
 .footer-content {
@@ -646,14 +569,13 @@ footer {
   margin-bottom: 30px;
 }
 
-/* trying tooltip on github and live icon on project section */
+/* tooltip on github and live icon on project section */
 
 .tooltip {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-right: 40px; */
   cursor: pointer;
 }
 
@@ -662,7 +584,6 @@ footer {
   background-color: #fff;
   color: #080808;
   position: absolute;
-  /* bottom: 100%; */
   top: 30%;
   left: 120%;
   padding: 10px 20px;
@@ -678,7 +599,6 @@ footer {
   border-style: solid;
   border-color: #fff transparent transparent transparent;
   position: absolute;
-  /* top: 100%; */
   left: 40%;
   margin-left: 5%;
 }
@@ -686,56 +606,5 @@ footer {
 /* Hover text tooltip */
 .tooltip:hover .tooltipText {
   opacity: 1;
-  /* transform: translateX(-10px); */
   transform: translateY(-10px);
 }
-
-/* new header */
-
-/* header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 90%;
-  margin: 0 auto;
-  position: fixed;
-  top: 0;
-  left: 0px;
-  right: 0px;
-  border: 2px solid red;
-}
-
-nav {
-  transform: translateX(0);
-  position: unset;
-  display: block;
-  width: auto;
-  height: auto;
-  background: none;
-} */
-
-/* To make the ul in the center of the header wwe need to remove the value */
-
-/* nav ul {
-  margin-top: 0px;
-  display: flex;
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 0px;
-}
-nav ul li a {
-  padding: 20px;
-} */
-
-/* javascript hamburger */
-
-/* .menu {
-  display: none;
-}
-
-.close {
-  display: none;
-} */
