@@ -286,7 +286,7 @@ nav ul li a:hover::after {
 
 #projects {
   padding: 50px 0;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .work-heading {
@@ -404,7 +404,7 @@ nav ul li a:hover::after {
   background-color: #262626;
   color: #fff;
   padding: 5rem auto 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .contact-row {
